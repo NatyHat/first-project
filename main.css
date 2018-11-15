@@ -3,9 +3,22 @@
     justify-content: end;
 }
 
+.form-group {
+    text-align: left
+}
+
 .footerNav li {
-  
     display: inline;
+    padding-right: 2rem;
+}
+
+.footerNav p {
+    text-align: center
+}
+
+.yogurt {
+    padding-right: 6rem;
+    padding-left: 6rem;
 }
 
 .navbar {
@@ -35,7 +48,7 @@ footer {
     padding: 1rem;
 }
 
-a:hover {
+header a:hover {
     color: #fff;
 }
 
@@ -107,4 +120,9 @@ footer nav ul li a{
 .form-padding {
     padding-right: 6.5625rem;
     padding-left: 6.5625rem;
+}
+
+footer a:hover {
+    color: #757575;
+    text-decoration: none;
 }
