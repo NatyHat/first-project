@@ -75,3 +75,31 @@ h2, h3, h4, h5 {
     border: none;
 }
 
+.nav-pills .nav-link.active {
+    color: #a7a7a7d8;
+    background-color: #fff;
+    border: 1px solid  #2c3e50;
+}
+
+.nav-pills .nav-link {
+    color: #a7a7a7d5;
+    border: 1px solid #cccccc;
+}
+
+.nav-link {
+    margin-right: 0.68rem;
+}
+
+.portfolio .nav {
+    margin-bottom: 2.9375rem;
+    margin-top: 2.9375rem;
+}
+
+
+.portfolio .card-deck {
+    padding-bottom: 3.5rem;
+}
+
+.portfolio .card-deck {
+    padding-bottom: 3.5rem;
+}
