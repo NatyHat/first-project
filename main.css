@@ -64,6 +64,8 @@ footer {
 
 header a:hover {
     color: var(--text-link-color);
+    border: #F3772B 2px solid;
+    border-radius: 100px;
 }
 
 .panel {
@@ -71,9 +73,6 @@ header a:hover {
     padding-bottom: 4rem;
 }
 
-second-title {
-    margin-bottom: 5rem;
-}
 
 h1 { 
     color: #fff; font-family: 'Droid serif', serif; font-size: 36px; font-weight: 400; font-style: italic; line-height: 44px; margin: 0 0 12px; text-align: center;; 
@@ -142,8 +141,7 @@ footer nav ul li a{
 }
 
 footer a:hover {
-    color: var(--text-link-color);
-    text-decoration: none;
+  color: var(--text-link-color);
 }
 
 .about-background {
@@ -151,7 +149,7 @@ footer a:hover {
 }
 
 .par-1a2 {
-    color: #7a7c7f; font-size: 20px; font-family: var(--font-family-primary) ; line-height: 25px; text-shadow: 0 1px 1px #fff;
+    color: #030303; font-size: 20px; font-family: var(--font-family-primary) ; line-height: 25px; text-shadow: 0 1px 1px #fff;
 }
 
 .card-img-top {
@@ -164,3 +162,12 @@ border-radius: 100px;
     background-color: #F3772B;
     border-color: #F3772B
 }
+
+.yogurt:hover {
+  color: var(--text-link-color);
+  background-color: var(--background-primary-color) ;
+    text-decoration: none;
+    border: #F3772B 2px solid;
+    border-radius: 100px;
+}
+
